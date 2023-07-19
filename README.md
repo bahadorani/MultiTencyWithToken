@@ -5,12 +5,12 @@ Multi-tenancy means that one instance of the software and all necessary infrastr
 In this project, Users are the common application table but each product has a separate database (in SQL server) and thus complete data isolation and security.
 The tenancy is defined in claims of created jwt token. 
 
-Please test this project after completing these below steps:
+Please test this project after completing the below steps:
 1. Create database "TenantSample" in SqlServer
 2. Create a table "User"
 3. Create database "Year1Sample" in SqlServer
 4. Create a table "Product"
-5. check the project by bellow urls.
+5. Check the project with the following addresses.
    
 http://localhost:5017/api/values/getusers
 or
