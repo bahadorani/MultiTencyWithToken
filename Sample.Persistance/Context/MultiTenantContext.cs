@@ -2,7 +2,7 @@
 using Sample.Domain.Models;
 namespace Sample.Persistence.Context
 {
-    public class MultiTenantContext :DbContext
+    public class MultiTenantContext :DbContext, IDisposable
     {
         public MultiTenantContext(DbContextOptions<MultiTenantContext> options)
             : base(options)
